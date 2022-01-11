@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.count{
+  background-color: yellow;
+}
+.count h1{
+  text-align: center;
+}
+.count .btn{
+  background-color: cyan;
+  width: 55px;
+  height: 40px;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+}
+.menu img{
+  width: 280px;
+  height: 230px;
+}
+.in{
+  text-align: center;
+}
