@@ -21,7 +21,7 @@ const EditContact = () => {
             setImg(contactToEdit.img)
         }
     }, [contactToEdit])
-
+    console.log()
     useEffect(()=>{
         getContactToEdit(params.id)
     }, [])
