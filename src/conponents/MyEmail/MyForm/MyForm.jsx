@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-
 const MyForm = ({form, setForm, setShow}) => {
     const submit = (event) => {
         event.preventDefault()
@@ -9,7 +8,6 @@ const MyForm = ({form, setForm, setShow}) => {
         }
         setShow(false)
     }
-
     const update = (event) => {
         setForm({
             ...form,

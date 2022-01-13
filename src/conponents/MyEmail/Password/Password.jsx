@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import MyForm from '../MyForm/MyForm';
 import Welcome from '../Welcome/Welcome';
 const Password = () => {
-
     const [form, setForm] = useState({
         email: '',
         password:'',
@@ -20,8 +19,7 @@ const Password = () => {
             <Welcome
             form={form}
             setShow={setShow}
-            />
-            }
+            />}
         </div>
     );
 };

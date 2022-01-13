@@ -1,9 +1,9 @@
 import './App.css';
-import Routes from './Routes';
+import MyRoutes from './MyRoutes';
 function App() {
   return (
     <div>
-      <Routes />
+      <MyRoutes />
     </div>
   );
 }
